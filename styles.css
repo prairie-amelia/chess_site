@@ -29,9 +29,10 @@ h2{
     padding: 5px 5px;
 }
 .row{
-    width:100%;
-    display: flex;
-    flex-direction:row;
+  width:100%;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 .white{
     border-color: white;
